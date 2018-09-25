@@ -11,3 +11,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# for agnoster theme
+DEFAULT_USER=jrusso
+# aliases 
+alias vim='nvim'
+alias gst='git status'
+
+# export VISUAL=nvim
+# export EDITOR="$VISUAL"
