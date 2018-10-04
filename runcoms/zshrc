@@ -17,6 +17,7 @@ DEFAULT_USER=jrusso
 # aliases 
 alias vim='nvim'
 alias gst='git status'
+export ugrad='jrusso15@ugradx.cs.jhu.edu'
 
 # export VISUAL=nvim
 # export EDITOR="$VISUAL"
