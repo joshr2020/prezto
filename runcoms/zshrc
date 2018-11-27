@@ -18,7 +18,11 @@ DEFAULT_USER=jrusso
 alias vim='nvim'
 alias hockey='cd ~/code/GitHub/LazyMan && java -jar LazyMan.jar'
 alias gst='git status'
-export ugrad='jrusso15@ugradx.cs.jhu.edu'
+# export ugrad='jrusso15@ugradx.cs.jhu.edu'
+
+ugrad () {
+    ssh jrusso15@ugrad${1}.cs.jhu.edu
+}
 
 # export VISUAL=nvim
 # export EDITOR="$VISUAL"
