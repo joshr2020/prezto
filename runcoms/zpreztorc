@@ -39,7 +39,8 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'homebrew' \
   'python' \
-  'osx'
+  'osx' \
+  'tmux'
 
 #
 # Autosuggestions
@@ -219,7 +220,7 @@ zstyle ':prezto:module:python' conda-init 'on'
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
 # Set the default session name:
-# zstyle ':prezto:module:tmux:session' name 'YOUR DEFAULT SESSION NAME'
+# zstyle ':prezto:module:tmux:session' name 'default'
 
 #
 # Utility
