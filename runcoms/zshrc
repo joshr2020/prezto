@@ -14,18 +14,19 @@ fi
 
 # for agnoster theme
 DEFAULT_USER=jrusso
+
 # aliases 
-alias vim='nvim'
 alias hockey='cd ~/code/GitHub/LazyMan && java -jar LazyMan.jar'
 alias gst='git status'
-# export ugrad='jrusso15@ugradx.cs.jhu.edu'
+alias condaa='conda activate'
+alias condad='conda deactivate'
+alias condal='conda env list'
+alias condai='conda install'
+alias condac='conda create'
 
 ugrad () {
     ssh jrusso15@ugrad${1}.cs.jhu.edu
 }
-
-# export VISUAL=nvim
-# export EDITOR="$VISUAL"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
