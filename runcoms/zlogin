@@ -19,7 +19,7 @@
 
   # Print a random, hopefully interesting, adage.
   if (( $+commands[fortune] )); then
-    fortune -a -s | cowsay -s -f bong
+    fortune -a -s | cowsay
     print
   fi
 

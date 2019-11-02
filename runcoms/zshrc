@@ -25,7 +25,7 @@ alias condai='conda install'
 alias condac='conda create'
 
 ugrad () {
-    ssh jrusso15@ugrad${1}.cs.jhu.edu
+    ssh -X jrusso15@ugrad${1}.cs.jhu.edu
 }
 
 fpath=(/usr/local/share/zsh-completions $fpath)

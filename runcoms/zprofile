@@ -44,6 +44,7 @@ typeset -gU cdpath fpath mailpath path
 # Set the list of directories that Zsh searches for programs.
 path=(
   /usr/local/{bin,sbin}
+  /Users/jrusso/code/school/os/toolchain/x86_64/bin
   $path
 )
 
@@ -65,3 +66,5 @@ fi
 # conda activate
 # . /anaconda3/etc/profile.d/conda.sh
 
+
+export PATH="$HOME/.cargo/bin:$PATH"
